@@ -5,8 +5,16 @@ Description: This assignment takes two different sets of ciphered text and runs 
 
 Link to Repl-it Python Code: https://repl.it/@ByronDowling/CryptographyAlphabetIndex#main.py
 Link to decrypter used to verify my substitution alphabet was correct: https://www.dcode.fr/monoalphabetic-substitution  
-key 1: IYJMLSQFOPXKHGUDNEBCTRAVWZ
-key 2: YQTJZGXPUHRBVKFAWECNIDMOLS
+key 1: IYJMLSQFOPXKHGUDNEBCTRAVWZ 
+key 2: YQTJZGXPUHRBVKFAWECNIDMOLS 
+Each letter of each key corresponds to the place of the alphabet key: ABCDEFGHIJKLMNOPQRSTUVWXYX, for example, in key 1 the plaintext A has been swapped with I and plaintext B has been swapped with Y etc. Same rule applies for key 2.
+
+Files:
+CipherText1_FA.jpg >> Hand work of solving chunks of cipher text #1 until I had each letter mapped out to its cipher text letter
+CipherText2_FA.jpg >> Hand worl of solving chunks of cipher text #2 until I had each letter mapped out to its cipher text letter
+decrypted_1.txt >> result of decrypting the cipher text of the first example
+decrypted_2.txt >> result of decrypting thge cipher text of the second example
+
 
 Original Assignment Description:
 Overview
