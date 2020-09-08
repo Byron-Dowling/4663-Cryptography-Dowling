@@ -3,6 +3,8 @@ Byron Dowling
 
 Description: This assignment takes two different sets of ciphered text and runs a frequency analysis on each to determine what letters are occuring most often within the cipher text. Utilizing the majority of the Python program demonstrated in class by Dr. Griffin, this allows one to update the code with the proper url for the cipher text file and run the frequency analysis on it. Once this is done, one can reference the chart on the main assignment to allocate the most occuring cipher text letters with the most common plain text occuring letters and begin deciphering the encrypted message. Mine was done by hand by selecting chunks of cipher text until I had mapped out each letter and then I used an online tool with a substitution key to decrypt the remaining text once I had mapped out what each letter was.
 
+Link to Repl-it Python Code: https://repl.it/@ByronDowling/CryptographyAlphabetIndex#main.py
+
 Original Assignment Description:
 Overview
 I received two files that were encrypted using a "substitution" cipher. The genius whom encrypted these, randomly shuffled a list of letters multiple times. The problem is, he never sent me the key! So, I cannot reverse the process. I need your help to decipher these messages.
