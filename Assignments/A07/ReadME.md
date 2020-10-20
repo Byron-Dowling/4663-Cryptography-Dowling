@@ -49,6 +49,9 @@
 > The algorithm states that Let N be an integer adn let A be >= to 0, if N is prime then the Jacobi Symbol of A/N is equivalent to: A^(N-1)/2 mod(N)
 > If N is not prime, then the Jacobi Symbol of A/N will not be equal to A^(N-1)/2 mod(N)
 >
+> ##### Disadvantages
+> Like other Probability-based Primality Tests, there is always the chance of returning a high probability of a number being Prime and have it not actually be prime.
+>
 > Source: http://www-math.ucdenver.edu/~wcherowi/courses/m5410/ctcprime.html
 
 
