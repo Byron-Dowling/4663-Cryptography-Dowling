@@ -17,5 +17,5 @@
 > and this is achieved without relying on the *Generalized Riemann Hypothesis*. Arguably the biggest achievement of this algorithm is unliek many other algorithms that
 > return a probability to the level of certainty that a number may be prime, the AKS algorithms can verify the primality of any general number is *Deterministically Correct*.
 >
-> https://slideplayer.com/slide/236065/1/images/3/Original+AKS+Algorithm+August+6%2C+2002+version%3A.jpg
+> ![image of AKS](https://slideplayer.com/slide/236065/1/images/3/Original+AKS+Algorithm+August+6%2C+2002+version%3A.jpg)
 >
