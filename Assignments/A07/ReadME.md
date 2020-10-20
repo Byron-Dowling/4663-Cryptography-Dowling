@@ -23,3 +23,9 @@
 >
 > ![image of AKS](https://slideplayer.com/slide/236065/1/images/3/Original+AKS+Algorithm+August+6%2C+2002+version%3A.jpg)
 >
+
+#### Brute Force Algorithm *Certification*
+> The Brute Force Primality-Test Algorithm is pretty self explanatory and is the a straightforward albeit time consuming algorithm for verifying if a nu,ber is prime.
+> The idea is simple enough, if we have an integer N, and we want to determine if N is indeed Prime, we will check all factor combinations up to the Square Root of N.
+> This could also be sped up if a pre-made list of known primes is available for all integers < Square Root of N, however this is impractical if not impossible for 
+> very large numbers and this is why this algorithm is unsuitable for very large numbers. Therefore, there are other more efficient methods for verifying primality.
