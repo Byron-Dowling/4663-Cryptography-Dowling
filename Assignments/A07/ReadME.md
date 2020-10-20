@@ -96,7 +96,8 @@
 >   If N itself is this prime factor then declare it prime and stop.
 > - Find a Monic polynomial F in (Z/NZ)(x) of degree d.
 > - For each integer a, 1 <+ B, check if (A+B)^N is congruent to X^N + A mod(N,f(x)). If one of these congruences should fail, declare N composite. Else, declare N Prime.
->
+> The research paper can be found here:
+> - https://math.dartmouth.edu/~carlp/PDF/complexity12.pdf
 
 #### Sources:
 > - https://math.dartmouth.edu/~carlp/PDF/complexity12.pdf
