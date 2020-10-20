@@ -83,7 +83,7 @@
 >
 >##### Disadvantages
 > BPSW requires 3-7 times more operations than a single Miller-Rabin test.
-> THere is a theoretical concern that for very large N, the algorithm would become computationally useless
+> There is a theoretical concern that for very large N, the algorithm would become computationally useless
 
 
 #### Primality Testing with Gaussian Periods *Deterministic*
