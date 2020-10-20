@@ -39,6 +39,16 @@
 >##### Disadvantages
 > The Miller-Rabin test claims to be Deterministic and shares some properties of a Deterministic Algorithm, however unlike the AKS Primality Test, the Miller Rabin test relies 
 > on the extended Riemann Hypothesis.
-> Numbers such as the third Carmichael number **1729** break this test.
+> Additionally, numbers such as the third Carmichael number **1729** break this test.
+
+
+#### Solovay Strassen Primality Test *Compositeness* or *Probablistic*
+> The Solovay Strassen Primality Algorithm is another example of an Algorithm that sacrifies 100% certification and accuracy for greatly improving the speed of determining
+> whether a number is prime of not. 
+>
+> The algorithm states that Let N be an integer adn let A be >= to 0, if N is prime then the Jacobi Symbol of A/N is equivalent to: A^(N-1)/2 mod(N)
+> If N is not prime, then the Jacobi Symbol of A/N will not be equal to A^(N-1)/2 mod(N)
+>
+> Source: http://www-math.ucdenver.edu/~wcherowi/courses/m5410/ctcprime.html
 
 
