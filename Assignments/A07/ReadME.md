@@ -36,6 +36,8 @@
 > Recall that N is prime if and only if the solutions of x^2 (mod N) is = +1 or -1, and if a^(n-1)=1 then we would also check a^(n-1)/2 is equal to +1 or -1 because this
 > is the square root of 1. The result provides a high level of accuracy to whether a number is prime or not as well as if it's instead a composite value.
 >
+> ![image of Miller Rabin](https://slideplayer.com/slide/4358163/14/images/5/Miller-Rabin+Test+What+are+we+doing+b0+%3D+am+%28mod+n%29+b1+%3D+a2m+%28mod+n%29.jpg)
+>
 >##### Disadvantages
 > The Miller-Rabin test claims to be Deterministic and shares some properties of a Deterministic Algorithm, however unlike the AKS Primality Test, the Miller Rabin test relies 
 > on the extended Riemann Hypothesis.
@@ -49,9 +51,10 @@
 > The algorithm states that Let N be an integer adn let A be >= to 0, if N is prime then the Jacobi Symbol of A/N is equivalent to: A^(N-1)/2 mod(N)
 > If N is not prime, then the Jacobi Symbol of A/N will not be equal to A^(N-1)/2 mod(N)
 >
+> The biggest claim to fame that this Test/Agorithm has is that it is a great historical importance as it showed the feasability of the RSA Cryptosytem.
 > ##### Disadvantages
 > Like other Probability-based Primality Tests, there is always the chance of returning a high probability of a number being Prime and have it not actually be prime.
->
-> Source: http://www-math.ucdenver.edu/~wcherowi/courses/m5410/ctcprime.html
 
+
+#### Elliptic Curve Primality Proving (ECCP)
 
