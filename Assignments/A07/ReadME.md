@@ -56,5 +56,55 @@
 > Like other Probability-based Primality Tests, there is always the chance of returning a high probability of a number being Prime and have it not actually be prime.
 
 
-#### Elliptic Curve Primality Proving (ECCP)
+#### Elliptic Curve Primality Proving (ECPP) *General Purpose/Certification*
+> The Elliptic Curve Primality technique is among one of the quickest and most widely used methods in primality proving building upon a previous concept of using elliptic
+> curves in the factorization process.
+>
+> The overall approach of ECCP is to reduce the question of the primality of p to the question of the primality of a smaller prime q, where q ≤ p/2 + o(p). 
+> This results in a chain of primes p0, p1, . . . , pi , where p0 = p is the original prime, and pi is small enough to be verified deterministically in polynomial time. 
+> This chain is a certificate of primality for p and can be verified quickly in polynomial time
+> 
+> One major advantage of Elliptic Curve Primality is that it is easier to implement in practice compared to rival algorithms that are not as easily implemented such as
+> the Pocklington Primality Test.
+
+#### Baillie-PSW Primality Test *Composite/Probalistic*
+> Similar in nature to the Fermat Test and Miller-Rabin test the general nature of the algorithm is as follows:
+- Process all N < 3 and all even N
+- Check N for an small prime divisors where P < 1000
+- Perform a Miller-Rabin (or strong probable prime) tes, base 2, on N
+- Perform a standard or strong Lucas-Selfridge test on N, using Lucas sequences with the parameters suggested by Selfridge.
+>
+> At any point during this procedure, N may be revealed to be definitely composite, if this doesn't occur it has passed with a standard/strong rating and is either a
+> Prime or a BPSW (Baillie-PSW) Pseudoprime
+>
+>##### Advantages
+> As of 2009, there have not been any BPSW pseudoprimes discovered which bolsters the credibility and accuracy of this algorithm over running multiple Miller-Rabin Tests
+> Many commercial software packages rely on this algorithm
+>
+>##### Disadvantages
+> BPSW requires 3-7 times more operations than a single Miller-Rabin test.
+> THere is a theoretical concern that for very large N, the algorithm would become computationally useless
+
+
+#### Primality Testing with Gaussian Periods *Deterministic*
+> Loosely based on some aspects of AKS, Lenstra and Pomerance created a primality test attempting to deterministically prove if N is prime
+>
+> To begin, we are given an integer N > 1 and want to determine if N is prime or composite
+> - Check if N is a power other than a first power. If it is then N is composite.
+> - Let D = log2(N)
+> - Let B = d^(1/2)log2N. Check to see if N has a prime factor within the interval of 1 to B. If N has such a factor that is not equal to N, we declare it composite.
+>   If N itself is this prime factor then declare it prime and stop.
+> - Find a Monic polynomial F in (Z/NZ)(x) of degree d.
+> - For each integer a, 1 <+ B, check if (A+B)^N is congruent to X^N + A mod(N,f(x)). If one of these congruences should fail, declare N composite. Else, declare N Prime.
+>
+
+#### Sources:
+> - https://math.dartmouth.edu/~carlp/PDF/complexity12.pdf
+> - https://faculty.lynchburg.edu/~nicely/misc/bpsw.html
+> - https://math.dartmouth.edu/~carlp/dopo.pdf
+> - http://theory.stanford.edu/~dfreeman/cs259c-f11/finalpapers/primalityproving.pdf
+> - http://www-math.ucdenver.edu/~wcherowi/courses/m5410/ctcprime.html
+> - https://crypto.stanford.edu/pbc/notes/numbertheory/millerrabin.html
+> - https://crypto.stanford.edu/pbc/notes/numbertheory/poly.html
+> - https://www.whitman.edu/documents/Academics/Mathematics/2018/Worthington.pdf
 
