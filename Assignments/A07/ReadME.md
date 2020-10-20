@@ -29,3 +29,16 @@
 > The idea is simple enough, if we have an integer N, and we want to determine if N is indeed Prime, we will check all factor combinations up to the Square Root of N.
 > This could also be sped up if a pre-made list of known primes is available for all integers < Square Root of N, however this is impractical if not impossible for 
 > very large numbers and this is why this algorithm is unsuitable for very large numbers. Therefore, there are other more efficient methods for verifying primality.
+
+#### Miller-Rabin Test *Deterministic/Compositeness*
+> The Miller-Rabin Test builds upon what the Fermat Test achieves and adds a higher level of accuracy to testing for primality of a number.
+> The Test relies on an equality or set of equalities that hold true for prime values, then checks whether or not they hold for a number that we want to test for primality.
+> Recall that N is prime if and only if the solutions of x^2 (mod N) is = +1 or -1, and if a^(n-1)=1 then we would also check a^(n-1)/2 is equal to +1 or -1 because this
+> is the square root of 1. The result provides a high level of accuracy to whether a number is prime or not as well as if it's instead a composite value.
+>
+>##### Disadvantages
+> The Miller-Rabin test claims to be Deterministic and shares some properties of a Deterministic Algorithm, however unlike the AKS Primality Test, the Miller Rabin test relies 
+> on the extended Riemann Hypothesis.
+> Numbers such as the third Carmichael number **1729** break this test.
+
+
