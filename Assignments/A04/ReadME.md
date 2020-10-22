@@ -9,12 +9,11 @@ The intent of this program is to implement an ADFGX cipher that will both encryp
 |   #   | File            | Description                                        |
 | :---: | --------------- | -------------------------------------------------- |
 |   1   | adfgx.py        | Main driver of my project                          |
-|   2   | polybius.py     | Helper class that building the polybius square     |
-|   3   | .replit         | To run the program in repl.it                      |
-|   4   | encrypted.txt   | Output file for final encrypted text               |
-|   5   | plaintext.txt   | Input file for beginning the encryption process    |
-|   6   | cipher.txt      | Input file for beginning the decryption process    |
-|   7   | decrypted.txt   | Output file for final decrypted text               |
+|   2   | polybius.py     | Helper class that builds the polybius square       |
+|   3   | encrypted.txt   | Output file for final encrypted text               |
+|   4   | plaintext.txt   | Input file for beginning the encryption process    |
+|   5   | cipher.txt      | Input file for beginning the decryption process    |
+|   6   | decrypted.txt   | Output file for final decrypted text               |
 
 ### Instructions
 
