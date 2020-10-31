@@ -18,19 +18,20 @@ Given a somewhat large number, determine if it is prime or if it can be factored
 - The program can be run from your machine's console or from this replit project: 
 - The program expects an input file and output file destination
 
-- Example Parameters:
-
 Example Input
-
+```
 231697363
 709
 246641520131
 72490732415291
-Example Output
+```
 
+Example Output
+```
 Name: Joe Sue
 
 Number 1: 231697363 - Factors: 419 * 607 * 911
 Number 2: 709 - Prime
 Number 3: 246641520131 - ???
 Number 4: 72490732415291 - Factors: 249089 * 147503 * 1973
+```
