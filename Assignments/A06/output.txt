@@ -1,0 +1,16 @@
+The number 419 is PRIME!
+The number 911 is PRIME!
+The number 117 is Composite  - Factors: 3 13 
+The number 121 is Composite  - Factors: 11 
+The number 125 is Composite  - Factors: 5 
+The number 41 is PRIME!
+The number 169 is Composite  - Factors: 13 
+The number 123 is Composite  - Factors: 3 41 
+The number 64 is Composite  - Factors: 2 
+The number 77 is Composite  - Factors: 7 11 
+The number 51 is Composite  - Factors: 3 17 
+The number 709 is PRIME!
+The number 231697363 is Composite  - Factors: 419 607 911 
+The number 246641520131 is PRIME!
+The number 72490732415291 is Composite  - Factors: 1973 147503 249089 
+The number 724907324152911221 is Composite  - Factors: 7 61 
