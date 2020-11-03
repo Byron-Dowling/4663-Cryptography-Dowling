@@ -21,7 +21,7 @@ Given a somewhat large number, determine if it is prime or if it can be factored
 - The program expects an input file and output file destination
 - The program is broken up into three parts with main residing in "Get Prime Factors"
 - The file "Prime Factors" is the class definition that drives the functionality of the program
-- THe file "Class Prime Factors" has the Class methods that implement the primality testing algorithms
+- The file "Class Prime Factors" has the Class methods that implement the primality testing algorithms
 
 Example Input
 ```
