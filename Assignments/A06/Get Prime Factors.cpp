@@ -2,7 +2,7 @@
 //                   
 // Author:           Byron Dowling
 // Email:            byrondowling7@gmail.com
-// Label:            P01
+// Label:            P06
 // Title:            Prime Factors and Primality Testing
 // Course:           4663
 // Semester:         Fall 2020
