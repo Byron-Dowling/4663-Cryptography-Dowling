@@ -2,7 +2,7 @@
 ### Byron Dowling
 ### Description:
 
-Given a somewhat large number, determine if it is prime or if it can be factored. If it can be factored print out the prime factors. Since this program was done in C++ there is a method to prompt the user to type in the input and output file destinations to run the program.
+Given a somewhat large number, determine if it is prime or if it can be factored. If it can be factored print out the prime factors. Since this program was done in C++ there is a method to prompt the user to type in the input and output file destinations to run the program. ***Important*** within the Class Prime Factors program, the file would not run in Visual Studio without a full path to C so that is included and the include "PrimeFactors.h" will need to be uncommented out to run the program.
 
 ### Files
 
