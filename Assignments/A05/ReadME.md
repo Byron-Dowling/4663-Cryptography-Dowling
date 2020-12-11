@@ -1,4 +1,19 @@
 ## Assignment 5 - Vigenere Cracking
+### Byron Dowling
+### Description:
+
+Assignment is not currently complete according to the decsription but in C++ I have written a program that will calculate the Index of Coincidence of different keylengths to determine what is most likely the length of the key. At this point minus the dictionary attack portion, we could brute force all different shift combinations to determine which is most likely. However this is likely too advanced for my current C++ abilities. Will continue to work on it until it is complete.
+
+### Files
+
+|   #   | File                    | Description                                        |
+| :---: | ----------------------- | -------------------------------------------------- |
+|   1   | Crypto5.cpp             | Main driver of my project                          |
+|   2   | Crypto5 Classes.h       | Header File with Class Definition                  |
+|   3   | Crypto5 Methods.cpp     | Class Methods and Implementation                   |
+|   4   | VCT1.txt                | Input file that was used to test                   |
+|   5   | VCT1_Results.txt        | Output file for the results                        |
+
 
 
 ### Original Assignment Details:
