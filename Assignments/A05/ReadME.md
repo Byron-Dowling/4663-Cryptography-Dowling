@@ -1,6 +1,7 @@
 ## Assignment 5 - Vigenere Cracking
-#### Due: 10-15-2020 (Tuesday @ 3:30 p.m.)
 
+
+### Original Assignment Details:
 <sup>Good Source: http://practicalcryptography.com/cryptanalysis/stochastic-searching/cryptanalysis-vigenere-cipher/</sup>
 
 You will be given 1 or more encrypted files. You know the files were encrypted using the Vigenère method. You also know that the key used is an english dictionary word with a length 2-16 inclusive.
@@ -32,29 +33,4 @@ have to use the bayes classifier but it will make life easier. You could simply 
   - print the first 50 words of the message after decryption
 - You must run your program like the following:
 
-```
-python break_vig.py input_file=input 
-```
-
-**Example OutPut**
-```
-Name: First Last
-
-Keylength: 7
-Keyword:   bruiser
-Decrypted Text:
-
-For score and seven years ago, there was an extremely cool dude with an awesome hat. Etc. Etc.
-```
-
-
-### Deliverables
-
-- Create a folder called `A05` in assignments folder and place all files (source code or text) that were used.
-- Follow the guidelines of [this](../../Resources/02-Readmees/README.md) to help you write a README.md for your assignment. (10% of grade).
-- Include any and all files used to complete this project. 
-- Your main program should be named `break_vig.py`
-- The `README.md` is for you to assist anyone with necessary libraries and or the running of your program. 
-- Any sources used should be in the description as well as a link to every file. 
-- Examples of input and output would be helpful as well.
 
